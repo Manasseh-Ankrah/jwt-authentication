@@ -1,0 +1,18 @@
+ 
+ GET https://example.com/comments/1 HTTP/1.1
+
+###
+
+GET http://localhost:5000/user/ HTTP/1.1
+
+###
+
+POST http://localhost:5000/user/register HTTP/1.1
+content-type: application/json
+
+{ 
+    "email":"",
+    "password":"",
+    "passwordCheck":"",
+    "displayName":"Man24" 
+}
